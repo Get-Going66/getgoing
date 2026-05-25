@@ -272,7 +272,11 @@ p {
     padding: 0 20px; /* ajoute un peu d’air sur les côtés */
 }
 .players-grid .player-wrapper {
-
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 0; /* important */
+    background: none;
     background: none !important;
     border: none !important;
     backdrop-filter: none !important;
