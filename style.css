@@ -375,7 +375,7 @@ figcaption {
 
 }
 #team .carte-studio .photo {
-    width: 300px;        /* largeur fixe */
+    width: 100%;        /* largeur fixe */
     height: 600px;       /* hauteur fixe */
     object-fit: cover;   /* recadre l’image sans la déformer */
     /* object-position: center;  centre le recadrage */
